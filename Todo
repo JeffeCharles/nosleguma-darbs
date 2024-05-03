@@ -1,0 +1,17 @@
+---------------------Vel-Jadara---------------------------
+
+dizains
+
+-----------------------Pabeigts---------------------
+Redzet savus izveidotos sludinajumus
+Ierakstita lietotaja sludinajuma dzesana
+Izvadit lietotaja datus sludinajuma
+Attels
+dropdown
+
+-------------------CMDs------------------------------
+
+cd noslegums/noslegums
+php artisan serve
+
+
