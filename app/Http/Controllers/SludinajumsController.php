@@ -28,6 +28,7 @@ class SludinajumsController extends Controller
         'Cena' => 'required|decimal:0,2',
         'Bojajumi' => 'required',
         'Krasa' => 'required',
+        'nobraukums' => 'required',
         'PapildusInfo' => 'max:500',
         'Atrumkarba' => 'required',
         'DegvielasTips' => 'required',
@@ -46,6 +47,7 @@ class SludinajumsController extends Controller
         $data['Cena'] = strip_tags($data['Cena']);
         $data['Bojajumi'] = strip_tags($data['Bojajumi']);
         $data['Krasa'] = strip_tags($data['Krasa']);
+        $data['nobraukums'] = strip_tags($data['nobraukums']);
         $data['PapildusInfo'] = strip_tags($data['PapildusInfo']);
         $data['Atrumkarba'] = strip_tags($data['Atrumkarba']);
         $data['DegvielasTips'] = strip_tags($data['DegvielasTips']);
@@ -95,6 +97,7 @@ class SludinajumsController extends Controller
             'Cena' => 'required|decimal:0,2',
             'Bojajumi' => 'required',
             'Krasa' => 'required',
+            'nobraukums' => 'required',
             'Atrumkarba' => 'required',
             'DegvielasTips' => 'required',
             'VirsbuvesVeids' => 'required',
@@ -137,9 +140,3 @@ class SludinajumsController extends Controller
 
 }
                                              
-
-        
-
-
-    
-

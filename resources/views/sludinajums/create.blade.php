@@ -76,9 +76,11 @@
             <select placeholder="Degviela" name="DegvielasTips" class="dropdown">
                 <option disabled selected>Izvēlies Degvielas Tipu</option>
                 <option value="Benzīns">Benzīns</option>
-                <option value="Dīzelis">Dīdelis</option>
+                <option value="Dīzelis">Dīzelis</option>
                 <option value="Elektrība">Elektrība</option>
-                <option value="Hibrids">Hibīds</option>
+                <option value="Hibrids(benzins)">Hibīds(benzīns)</option>
+                <option value="Hibrids(dizelis)">Hibīds(dīzelis)</option>
+
             </select>
 
             <br>
@@ -92,8 +94,29 @@
             <h2 class="crudH2">
                 Virsbūves Veids
             </h2>
-            <input class="crudText" type="text" name="VirsbuvesVeids" placeholder="Virsbūves Veids">
-            <br>
+
+            <select placeholder="Virsbūves Veids" name="VirsbuvesVeids" class="dropdown">
+                <option disabled selected>Izvēlies Virsbūves Veidu</option>
+                <option value="Sedans">Sedans</option>
+                <option value="Universāls">Universāls</option>
+                <option value="Kupeja">Kupeja</option>
+                <option value="Limozīns">Limozīns</option>
+                <option value="Hečbeks">Hečbeks</option>
+                <option value="Minivens">Minivens</option>
+                <option value="Hārdtops">Hārdtops</option>
+                <option value="Liftbeks">Liftbeks</option>
+                <option value="Kabriolets">Kabriolets</option>
+                <option value="Targa">Targa</option>
+                <option value="Roadsters">Roadsters</option>
+                <option value="Lando">Lando</option>
+                <option value="Featons">Featons</option>
+                <option value="Spaiders">Spaiders</option>
+                <option value="Brogams">Brogams</option>
+                <option value="Furgons">Furgons</option>
+                <option value="Pikaps">Pikaps</option>
+                <option value="SUV">SUV</option>
+            </select>
+
 
             <h2 class="crudH2">
                 Bojājumi
@@ -105,6 +128,12 @@
                 Papildus Informācija
             </h2>
             <input class="crudText" type="text" name="PapildusInfo" placeholder="Papildus Informācija">
+            <br>
+
+            <h2 class="crudH2">
+                Nobraukums
+            </h2>
+            <input class="crudText" type="number" name="nobraukums" placeholder="Nobraukums">
             <br>
 
             <h2 class="crudH2">

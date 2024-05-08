@@ -31,7 +31,7 @@
                 <td>{{$sludinajums->Modelis}}</td>
                 <td>{{ date('F j, Y', strtotime($sludinajums->IzdosanasDatums)) }}</td>
                 <td>{{$sludinajums->Atrumkarba}}</td>
-                <td>{{$sludinajums->Cena}}</td>
+                <td>{{$sludinajums->Cena}} EUR</td>
                 <td>
                     <a href="{{route('sludinajums.view', ['sludinajums' => $sludinajums, 'users' => $users])}}">Apskatīt</a>
                 </td>

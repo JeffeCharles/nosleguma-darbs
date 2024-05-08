@@ -1,18 +1,19 @@
 <section class="space-y-6">
     <header>
-        <h2 class="text-lg font-medium text-gray-900 dark:text-gray-100">
-            {{ __('Dzēst kontu') }}
+        <h2 class="profileH2">
+            Dzest Kontu
         </h2>
 
-        <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
-            {{ __('Ja izdzēsīsiet savu kontu tad no nebūs iespējams atgūt, esat pārliecināti kad vēlaties to dzēst!') }}
+        <p class="profileP">
+            Ja Dzēsīsiet kontu tad dati tiks dzēsti un tos nebūs iespējams atgūt!
         </p>
     </header>
 
-    <x-danger-button
+    <x-danger-button class="profileBtn"
         x-data=""
         x-on:click.prevent="$dispatch('open-modal', 'confirm-user-deletion')"
-    >{{ __('Dzēst kontu') }}</x-danger-button>
+    >{{ __('Dzēst kontu') }}
+    </x-danger-button>
 
     <x-modal name="confirm-user-deletion" :show="$errors->userDeletion->isNotEmpty()" focusable>
         <form method="post" action="{{ route('profile.destroy') }}" class="p-6">

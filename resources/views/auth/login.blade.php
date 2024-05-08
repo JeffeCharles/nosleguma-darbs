@@ -5,7 +5,6 @@
     <br>
     <br>
     <br>
-    <br>
     
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
@@ -75,13 +74,13 @@
     <div class="btnContainer">
             <a href="{{ route('register') }}">
                 <button class="loginBtn">
-                    Neesi Reģistrēties?
+                    Neesi Reģistrējies?
                 </button>
             </a>
 
             <a href="{{ route('sludinajums.index') }}">
                 <button class="loginBtn">
-                    Nevēlies Reģistrēties?
+                    Nevēlies Reģistrējies?
                 </button>
             </a>
     </div>

@@ -22,6 +22,7 @@ return new class extends Migration
             $table->decimal('Cena');
             $table->string('Bojajumi');
             $table->string('PapildusInfo')->nullable();
+            $table->string('nobraukums');
             $table->string('Krasa');
             $table->string('Atrumkarba');
             $table->string('DegvielasTips');

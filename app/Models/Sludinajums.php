@@ -22,6 +22,7 @@ class Sludinajums extends Model
         'Bojajumi',
         'PapildusInfo',
         'Krasa',
+        'nobraukums',
         'Atrumkarba',
         'DegvielasTips',
         'VirsbuvesVeids',
