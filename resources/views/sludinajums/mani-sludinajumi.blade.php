@@ -5,7 +5,7 @@
         Sludinajumi
     </h1>
     <div>
-        <table border="1">
+        <table>
             <tr>
                 <th>Attels</th>
                 <th>Marka</th>
